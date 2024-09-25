@@ -4,7 +4,7 @@ tk.addEventListener("click",function(){
     const donated =parseFloat(document.getElementById('noah').innerText);
     const balance =parseFloat(document.getElementById("main-balance").innerText);
     
-      if(isNaN(add)||add<=0||add>balance||!Number.isInteger(add)){
+      if(isNaN(add)||add<=0||add>balance){
         alert('Failed to add money');
         document.getElementById('amount').value='';
         return;
