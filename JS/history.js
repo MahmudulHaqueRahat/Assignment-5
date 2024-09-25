@@ -16,4 +16,4 @@ const hlw =document.getElementById("info");
      giv.classList.add("bg-lime-500");
      hlw.classList.add("hidden");
  })
-// history
+ 
